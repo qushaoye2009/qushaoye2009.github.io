@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>使用uni-app开发移动端应用 | 青颖科技</title>
+    <meta name="description" content="技术，提升生活的幸福感和创造力！">
+    <meta name="generator" content="VuePress 1.4.0">
+    <link rel="icon" href="favicon.ico">
+  <meta name="theme-color" content="#3eaf7c">
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.4738fa7e.css" as="style"><link rel="preload" href="/blog/assets/js/app.2c917b5d.js" as="script"><link rel="preload" href="/blog/assets/js/2.fd5fecfd.js" as="script"><link rel="preload" href="/blog/assets/js/30.99874fba.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.1942694b.js"><link rel="prefetch" href="/blog/assets/js/11.fc70bb5f.js"><link rel="prefetch" href="/blog/assets/js/12.c3fac9da.js"><link rel="prefetch" href="/blog/assets/js/13.57136e29.js"><link rel="prefetch" href="/blog/assets/js/14.82c42e18.js"><link rel="prefetch" href="/blog/assets/js/15.c9ad5910.js"><link rel="prefetch" href="/blog/assets/js/16.54614957.js"><link rel="prefetch" href="/blog/assets/js/17.68526e2c.js"><link rel="prefetch" href="/blog/assets/js/18.523511fe.js"><link rel="prefetch" href="/blog/assets/js/19.adb148b4.js"><link rel="prefetch" href="/blog/assets/js/20.832cdccc.js"><link rel="prefetch" href="/blog/assets/js/21.dc5838dc.js"><link rel="prefetch" href="/blog/assets/js/22.24b2e047.js"><link rel="prefetch" href="/blog/assets/js/23.395e8337.js"><link rel="prefetch" href="/blog/assets/js/24.bcd0d929.js"><link rel="prefetch" href="/blog/assets/js/25.31ef45a8.js"><link rel="prefetch" href="/blog/assets/js/26.33cde361.js"><link rel="prefetch" href="/blog/assets/js/27.2bebb811.js"><link rel="prefetch" href="/blog/assets/js/28.81a1225e.js"><link rel="prefetch" href="/blog/assets/js/29.847049dd.js"><link rel="prefetch" href="/blog/assets/js/3.03c85107.js"><link rel="prefetch" href="/blog/assets/js/31.a1519bdb.js"><link rel="prefetch" href="/blog/assets/js/32.57884a16.js"><link rel="prefetch" href="/blog/assets/js/33.48d74260.js"><link rel="prefetch" href="/blog/assets/js/34.e8b94efe.js"><link rel="prefetch" href="/blog/assets/js/35.a094d0aa.js"><link rel="prefetch" href="/blog/assets/js/36.657cb6a4.js"><link rel="prefetch" href="/blog/assets/js/37.311e8110.js"><link rel="prefetch" href="/blog/assets/js/38.497cf9a6.js"><link rel="prefetch" href="/blog/assets/js/39.da027a3c.js"><link rel="prefetch" href="/blog/assets/js/4.4e078781.js"><link rel="prefetch" href="/blog/assets/js/40.89e258b5.js"><link rel="prefetch" href="/blog/assets/js/41.b10f4b3c.js"><link rel="prefetch" href="/blog/assets/js/42.d14aedd7.js"><link rel="prefetch" href="/blog/assets/js/43.e7524932.js"><link rel="prefetch" href="/blog/assets/js/44.06760ba2.js"><link rel="prefetch" href="/blog/assets/js/45.731ffc94.js"><link rel="prefetch" href="/blog/assets/js/46.f3f0f681.js"><link rel="prefetch" href="/blog/assets/js/47.d8c6b691.js"><link rel="prefetch" href="/blog/assets/js/48.a18908ef.js"><link rel="prefetch" href="/blog/assets/js/49.f05a4ac1.js"><link rel="prefetch" href="/blog/assets/js/5.27199e80.js"><link rel="prefetch" href="/blog/assets/js/50.7da410d2.js"><link rel="prefetch" href="/blog/assets/js/51.040d2bcd.js"><link rel="prefetch" href="/blog/assets/js/52.38f79a21.js"><link rel="prefetch" href="/blog/assets/js/53.d862fdda.js"><link rel="prefetch" href="/blog/assets/js/54.123a3dbf.js"><link rel="prefetch" href="/blog/assets/js/55.30941e0e.js"><link rel="prefetch" href="/blog/assets/js/56.687d4549.js"><link rel="prefetch" href="/blog/assets/js/57.1da8ee53.js"><link rel="prefetch" href="/blog/assets/js/58.07d4b9b2.js"><link rel="prefetch" href="/blog/assets/js/59.85be68d0.js"><link rel="prefetch" href="/blog/assets/js/6.c8690ffb.js"><link rel="prefetch" href="/blog/assets/js/60.b1eae672.js"><link rel="prefetch" href="/blog/assets/js/61.cf8eb291.js"><link rel="prefetch" href="/blog/assets/js/62.8a4c84df.js"><link rel="prefetch" href="/blog/assets/js/63.e24c018d.js"><link rel="prefetch" href="/blog/assets/js/64.6513064e.js"><link rel="prefetch" href="/blog/assets/js/65.909b57b7.js"><link rel="prefetch" href="/blog/assets/js/66.ebb4a0c5.js"><link rel="prefetch" href="/blog/assets/js/67.a170079c.js"><link rel="prefetch" href="/blog/assets/js/68.44856acf.js"><link rel="prefetch" href="/blog/assets/js/69.e2f35931.js"><link rel="prefetch" href="/blog/assets/js/7.67070ebe.js"><link rel="prefetch" href="/blog/assets/js/70.18454790.js"><link rel="prefetch" href="/blog/assets/js/71.0d37750b.js"><link rel="prefetch" href="/blog/assets/js/72.1508d391.js"><link rel="prefetch" href="/blog/assets/js/73.ad3a0e1d.js"><link rel="prefetch" href="/blog/assets/js/74.0bd7a766.js"><link rel="prefetch" href="/blog/assets/js/75.685f7337.js"><link rel="prefetch" href="/blog/assets/js/76.fa3b118b.js"><link rel="prefetch" href="/blog/assets/js/77.3441fc95.js"><link rel="prefetch" href="/blog/assets/js/8.5f3265b2.js"><link rel="prefetch" href="/blog/assets/js/9.c921ff13.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.4738fa7e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">青颖科技</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分享" class="dropdown-title"><span class="title">分享</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/share/interview.html" class="nav-link">
+  如何面试前端
+</a></li><li class="dropdown-item"><!----> <a href="/blog/share/java.html" class="nav-link">
+  java面试题
+</a></li><li class="dropdown-item"><!----> <a href="/blog/job/sf.html" class="nav-link">
+  前端面试题
+</a></li><li class="dropdown-item"><!----> <a href="/blog/share/env.html" class="nav-link">
+  开发环境配置参考
+</a></li><li class="dropdown-item"><!----> <a href="/blog/share/opt.html" class="nav-link">
+  web应用性能优化
+</a></li><li class="dropdown-item"><!----> <a href="/blog/share/uni.html" class="nav-link">
+  uni-app多端开发回顾
+</a></li><li class="dropdown-item"><!----> <a href="/blog/share/koa.html" class="nav-link">
+  koa+vue全栈开发实战
+</a></li><li class="dropdown-item"><!----> <a href="/blog/share/webpack.html" class="nav-link">
+  深入webpack
+</a></li><li class="dropdown-item"><!----> <a href="/blog/share/webpack-vue.html" class="nav-link">
+  webpack配置vue
+</a></li><li class="dropdown-item"><!----> <a href="/blog/share/md.html" class="nav-link">
+  markdown语法
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="文字教程" class="dropdown-title"><span class="title">文字教程</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/fs/1.html" class="nav-link">
+  JS全栈培训
+</a></li><li class="dropdown-item"><!----> <a href="/blog/static/1_1.html" class="nav-link">
+  全栈入门
+</a></li><li class="dropdown-item"><!----> <a href="/blog/js/1.html" class="nav-link">
+  JS入门教程
+</a></li><li class="dropdown-item"><!----> <a href="/blog/dd/1-3.html" class="nav-link">
+  JS高级程序设计
+</a></li><li class="dropdown-item"><!----> <a href="/blog/fe/vue.html" class="nav-link">
+  前端高级知识技能
+</a></li><li class="dropdown-item"><!----> <a href="/blog/en/ecma.html" class="nav-link">
+  必知编程英文词汇
+</a></li></ul></div></div><div class="nav-item"><a href="https://adeqing.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  博客
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他链接" class="dropdown-title"><span class="title">其他链接</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/url/fe.html" class="nav-link">
+  常用网址
+</a></li><li class="dropdown-item"><!----> <a href="/blog/url/review.html" class="nav-link">
+  面试复习
+</a></li><li class="dropdown-item"><!----> <a href="https://github.com/qushaoye2009" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分享" class="dropdown-title"><span class="title">分享</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/share/interview.html" class="nav-link">
+  如何面试前端
+</a></li><li class="dropdown-item"><!----> <a href="/blog/share/java.html" class="nav-link">
+  java面试题
+</a></li><li class="dropdown-item"><!----> <a href="/blog/job/sf.html" class="nav-link">
+  前端面试题
+</a></li><li class="dropdown-item"><!----> <a href="/blog/share/env.html" class="nav-link">
+  开发环境配置参考
+</a></li><li class="dropdown-item"><!----> <a href="/blog/share/opt.html" class="nav-link">
+  web应用性能优化
+</a></li><li class="dropdown-item"><!----> <a href="/blog/share/uni.html" class="nav-link">
+  uni-app多端开发回顾
+</a></li><li class="dropdown-item"><!----> <a href="/blog/share/koa.html" class="nav-link">
+  koa+vue全栈开发实战
+</a></li><li class="dropdown-item"><!----> <a href="/blog/share/webpack.html" class="nav-link">
+  深入webpack
+</a></li><li class="dropdown-item"><!----> <a href="/blog/share/webpack-vue.html" class="nav-link">
+  webpack配置vue
+</a></li><li class="dropdown-item"><!----> <a href="/blog/share/md.html" class="nav-link">
+  markdown语法
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="文字教程" class="dropdown-title"><span class="title">文字教程</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/fs/1.html" class="nav-link">
+  JS全栈培训
+</a></li><li class="dropdown-item"><!----> <a href="/blog/static/1_1.html" class="nav-link">
+  全栈入门
+</a></li><li class="dropdown-item"><!----> <a href="/blog/js/1.html" class="nav-link">
+  JS入门教程
+</a></li><li class="dropdown-item"><!----> <a href="/blog/dd/1-3.html" class="nav-link">
+  JS高级程序设计
+</a></li><li class="dropdown-item"><!----> <a href="/blog/fe/vue.html" class="nav-link">
+  前端高级知识技能
+</a></li><li class="dropdown-item"><!----> <a href="/blog/en/ecma.html" class="nav-link">
+  必知编程英文词汇
+</a></li></ul></div></div><div class="nav-item"><a href="https://adeqing.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  博客
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="其他链接" class="dropdown-title"><span class="title">其他链接</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/url/fe.html" class="nav-link">
+  常用网址
+</a></li><li class="dropdown-item"><!----> <a href="/blog/url/review.html" class="nav-link">
+  面试复习
+</a></li><li class="dropdown-item"><!----> <a href="https://github.com/qushaoye2009" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>JS全栈培训</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/fs/1.html" class="sidebar-link">从零打造个人博客和简历</a></li><li><a href="/blog/fs/2.html" class="sidebar-link">使用vue开发PC端应用</a></li><li><a href="/blog/fs/3.html" class="active sidebar-link">使用uni-app开发移动端应用</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_01-课程简介" class="sidebar-link">01 课程简介</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_1-1-什么是移动互联网" class="sidebar-link">1.1 什么是移动互联网</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_1-2-什么是移动端应用" class="sidebar-link">1.2 什么是移动端应用</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_1-3-什么是uni-app" class="sidebar-link">1.3 什么是uni-app?</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_1-4-为什么要选择uni-app？" class="sidebar-link">1.4 为什么要选择uni-app？</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_1-5-都有哪些多端框架？" class="sidebar-link">1.5 都有哪些多端框架？</a></li></ul></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_02-初始化项目" class="sidebar-link">02 初始化项目</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_2-1-环境安装" class="sidebar-link">2.1 环境安装</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_2-2-创建项目" class="sidebar-link">2.2 创建项目</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_2-3-运行并发布uni-app" class="sidebar-link">2.3 运行并发布uni-app</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_2-4-目录结构" class="sidebar-link">2.4 目录结构</a></li></ul></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_03-基础用法" class="sidebar-link">03 基础用法</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_3-1-pages-json文件" class="sidebar-link">3.1 pages.json文件</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_3-2-manifest-json文件" class="sidebar-link">3.2 manifest.json文件</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_3-3-package-json文件" class="sidebar-link">3.3 package.json文件</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_3-3-vue-config-js文件" class="sidebar-link">3.3 vue.config.js文件</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_3-4-uni-scss文件" class="sidebar-link">3.4 uni.scss文件</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_3-5-app-vue文件" class="sidebar-link">3.5 App.vue文件</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_3-6-main-js文件" class="sidebar-link">3.6 main.js文件</a></li></ul></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_04-使用组件" class="sidebar-link">04 使用组件</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_4-1-什么是组件？" class="sidebar-link">4.1 什么是组件？</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_4-2-视图容器组件" class="sidebar-link">4.2 视图容器组件</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_4-3-基础内容组件" class="sidebar-link">4.3 基础内容组件</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_4-4-表单组件" class="sidebar-link">4.4 表单组件</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_4-5-媒体组件" class="sidebar-link">4.5 媒体组件</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_4-6-扩展组件" class="sidebar-link">4.6 扩展组件</a></li></ul></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_05-使用api" class="sidebar-link">05 使用API</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_5-1-标准js和浏览器js的区别" class="sidebar-link">5.1 标准js和浏览器js的区别</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_5-2-路由跳转" class="sidebar-link">5.2 路由跳转</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_5-3-交互反馈" class="sidebar-link">5.3 交互反馈</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_5-4-发起请求" class="sidebar-link">5.4 发起请求</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_5-5-数据缓存" class="sidebar-link">5.5 数据缓存</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_5-6-图片" class="sidebar-link">5.6 图片</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_5-7-上传、下载" class="sidebar-link">5.7 上传、下载</a></li></ul></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_06-第三方库的使用" class="sidebar-link">06 第三方库的使用</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_6-1-为何使用第三方库或插件？" class="sidebar-link">6.1 为何使用第三方库或插件？</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_6-2-什么是mescroll-uni？" class="sidebar-link">6.2 什么是mescroll-uni？</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_6-3-使用mescroll-uni" class="sidebar-link">6.3 使用mescroll-uni</a></li></ul></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_07-多端兼容和打包上传" class="sidebar-link">07 多端兼容和打包上传</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_7-1-h5正常但小程序异常的可能性" class="sidebar-link">7.1 H5正常但小程序异常的可能性</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_7-2-小程序正常，但h5异常的可能性" class="sidebar-link">7.2 小程序正常，但H5异常的可能性</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_7-3-区别于传统-web-开发的注意" class="sidebar-link">7.3 区别于传统 web 开发的注意</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_7-4-打包部署" class="sidebar-link">7.4 打包部署</a></li></ul></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_08-模拟面试" class="sidebar-link">08 模拟面试</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_8-1-什么是小程序？" class="sidebar-link">8.1 什么是小程序？</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_8-2-小程序的实现原理" class="sidebar-link">8.2 小程序的实现原理</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_8-3-小程序和快应用" class="sidebar-link">8.3 小程序和快应用</a></li><li class="sidebar-sub-header"><a href="/blog/fs/3.html#_8-4-如何看待多端开发" class="sidebar-link">8.4 如何看待多端开发</a></li></ul></li></ul></li><li><a href="/blog/fs/4.html" class="sidebar-link">使用nodejs开发接口服务</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="使用uni-app开发移动端应用"><a href="#使用uni-app开发移动端应用" class="header-anchor">#</a> 使用uni-app开发移动端应用</h1> <p>针对开发需求量最大的小程序应用，我们基于uni-app这个使用人数最多且相对稳定的跨端开发框架和我们公司正在使用的小程序，讲解开发一个小程序的主要过程和核心知识技能，以及框架是如何支持多种小程序、H5和原生app的原理。</p> <p>对应的视频教程请访问： <a href="http://t.yibiankeji.com/" target="_blank" rel="noopener noreferrer">http://t.yibiankeji.com/<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>。</p> <h2 id="_01-课程简介"><a href="#_01-课程简介" class="header-anchor">#</a> 01 课程简介</h2> <h3 id="_1-1-什么是移动互联网"><a href="#_1-1-什么是移动互联网" class="header-anchor">#</a> 1.1 什么是移动互联网</h3> <p>移动互联网是PC互联网发展的必然产物，将移动通信和互联网二者结合起来，成为一体。它是互联网的技术、平台、商业模式和应用与移动通信技术结合并实践的活动的总称。</p> <p>目前，移动互联网正逐渐渗透到人们生活、工作的各个领域，微信、支付宝、位置服务等丰富多彩的移动互联网应用迅猛发展，正在深刻改变信息时代的社会生活，近几年，更是实现了3G经4G到5G的跨越式发展。</p> <h3 id="_1-2-什么是移动端应用"><a href="#_1-2-什么是移动端应用" class="header-anchor">#</a> 1.2 什么是移动端应用</h3> <p>伴随移动互联网的快速发展，移动客户端的使用数据量正在超越PC端，而这一现象主要的推力应归公于手机app应用的迅速发展。</p> <p>移动端的应用，主要包括苹果手机原生APP，各种Android原生APP，基于手机浏览器的网页应用，微信、支付宝、头条等各种小程序，以及快应用等。</p> <h3 id="_1-3-什么是uni-app"><a href="#_1-3-什么是uni-app" class="header-anchor">#</a> 1.3 什么是uni-app?</h3> <p>uni-app 是一个使用 Vue.js 开发所有前端应用的框架，开发者编写一套代码，可发布到iOS、Android、H5、以及各种小程序（微信/支付宝/百度/头条/QQ/钉钉）等多个平台。</p> <p>uni-app在手，做啥都不愁。即使不跨端，uni-app也是更好的小程序开发框架（详见）、更好的App跨平台框架、更方便的H5开发框架。不管领导安排什么样的项目，你都可以快速交付，不需要转换开发思维、不需要更改开发习惯。</p> <h3 id="_1-4-为什么要选择uni-app？"><a href="#_1-4-为什么要选择uni-app？" class="header-anchor">#</a> 1.4 为什么要选择uni-app？</h3> <p>uni-app在开发者数量、案例、跨端抹平度、扩展灵活性、性能体验、周边生态、学习成本、开发成本等8大关键指标上拥有更强的优势。</p> <p>一套代码，同时运行到iOS模拟器、Android模拟器、H5、微信开发者工具、支付宝小程序Studio、百度开发者工具、字节跳动开发者工具、QQ开发者工具。</p> <h3 id="_1-5-都有哪些多端框架？"><a href="#_1-5-都有哪些多端框架？" class="header-anchor">#</a> 1.5 都有哪些多端框架？</h3> <p>现在流行的多端框架可以大致分为三类：</p> <ul><li>全包型：从底层的渲染引擎、布局引擎，到中层的 DSL，再到上层的框架全部由自己开发，代表框架是 Qt 和 Flutter。优点非常明显：性能（的上限）高；各平台渲染结果一致。缺点也非常明显：需要完全重新学习 DSL（QML/Dart），以及难以适配中国特色的端：小程序。</li> <li>Web 技术型：把 Web 技术（JavaScript，CSS）带到移动开发中，自研布局引擎处理 CSS，使用 JavaScript 写业务逻辑，使用流行的前端框架作为 DSL，各端分别使用各自的原生组件渲染。代表框架是 React Native 和 Weex，这样做的优点有：开发迅速、复用前端生态、易于学习上手；缺点有：交互复杂时难以写出高性能的代码，这类框架的设计就必然导致 JS 和 Native  之间需要通信，由于没有渲染引擎，使用各端的原生组件渲染，相同代码渲染的一致性没有第一种高。</li> <li>JavaScript 编译型：Taro、WePY、uni-app、mpvue、chameleon，它们的原理也都大同小异：先以 JavaScript 作为基础选定一个 DSL 框架，以这个 DSL 框架为标准在各端分别编译为不同的代码，各端分别有一个运行时框架或兼容组件库保证代码正确运行。这类框架最大优点和创造的最大原因就是小程序，因为第一第二种框架其实除了可以跨系统平台之外，也都能编译运行在浏览器中。另外一个优点是在移动端一般会编译到 React Native/Weex，所以它们也都拥有 Web 技术型框架的优点。当 bug 出现时，问题的根源可能出在运行时、编译时、组件库以及三者依赖的库等等各个方面。</li></ul> <p>但这并不意味着这类为了小程序而设计的多端框架就都不堪大用。首先现在各巨头超级 App 的小程序百花齐放，框架会为了抹平小程序做了许多工作，这些工作在大部分情况下是不需要开发者关心的。其次是许多业务类型并不需要复杂的逻辑和交互，没那么容易触发到框架底层依赖的 bug。</p> <p>到底用哪个呢？</p> <p>如果不介意尝鲜和学习 DSL 的话，完全可以尝试 WePY2.0 和 chameleon，一个是酝酿了很久的 2.0 全新升级，一个有专门针对多端开发的多态协议。</p> <p>uni-app 和 Taro 相比起来就更像是「水桶型」框架，从工具、UI 库，开发体验、多端支持等各方面来看都没有明显的短板。而 mpvue 由于开发一度停滞，现在看来各个方面都不如在小程序端基于它的 uni-app 。</p> <h2 id="_02-初始化项目"><a href="#_02-初始化项目" class="header-anchor">#</a> 02 初始化项目</h2> <p>本节将基于官网的教程，带领大家初始化我们的项目。</p> <p>uni-app支持通过可视化界面、vue-cli命令行 两种方式快速创建项目。因为第一种需要安装官方IDE，而我们基于VScode 开发，所以我们使用第二种方式。</p> <h3 id="_2-1-环境安装"><a href="#_2-1-环境安装" class="header-anchor">#</a> 2.1 环境安装</h3> <p>全局安装vue-cli</p> <div class="language- extra-class"><pre class="language-text"><code>npm install -g @vue/cli
+</code></pre></div><h3 id="_2-2-创建项目"><a href="#_2-2-创建项目" class="header-anchor">#</a> 2.2 创建项目</h3> <div class="language- extra-class"><pre class="language-text"><code>vue create -p dcloudio/uni-preset-vue fs02-uni-study
+</code></pre></div><p>此时，会提示选择项目模板，初次体验建议选择 hello uni-app 项目模板。</p> <h3 id="_2-3-运行并发布uni-app"><a href="#_2-3-运行并发布uni-app" class="header-anchor">#</a> 2.3 运行并发布uni-app</h3> <div class="language- extra-class"><pre class="language-text"><code>npm run dev:%PLATFORM%
+npm run build:%PLATFORM%
+</code></pre></div><p>%PLATFORM% 可取值如下：</p> <ul><li>h5	H5</li> <li>mp-alipay	支付宝小程序</li> <li>mp-baidu	百度小程序</li> <li>mp-weixin	微信小程序</li> <li>mp-toutiao	字节跳动小程序</li> <li>mp-qq	qq 小程序</li></ul> <p>dev 模式编译出的各平台代码存放于根目录下的 /dist/dev/目录，打开各平台开发工具选择对应平台目录即可进行预览（h5 平台不会在此目录，存在于缓存中）；</p> <p>build 模式编译出的各平台代码存放于根目录下的 /dist/build/ 目录，发布时选择此目录进行发布；</p> <p>dev 和 build 模式的区别：</p> <ul><li>dev 模式有 SourceMap 可以方便的进行断点调试；</li> <li>build 模式会将代码进行压缩，体积更小更适合发布为正式版应用；
+进行 环境判断 时，dev 模式 process.env.NODE_ENV 的值为 development，build 模式 process.env.NODE_ENV 的值为 production。</li></ul> <h3 id="_2-4-目录结构"><a href="#_2-4-目录结构" class="header-anchor">#</a> 2.4 目录结构</h3> <p>一个uni-app工程，默认包含如下目录及文件：</p> <div class="language- extra-class"><pre class="language-text"><code>┌─components            uni-app组件目录
+│  └─comp-a.vue         可复用的a组件
+├─hybrid                存放本地网页的目录
+├─platforms             存放各平台专用页面的目录
+├─pages                 业务页面文件存放的目录
+│  ├─index
+│  │  └─index.vue       index页面
+│  └─list
+│     └─list.vue        list页面
+├─static                存放应用引用静态资源（如图片、视频等）的目录，注意：静态资源只能存放于此
+├─wxcomponents          存放小程序组件的目录
+├─main.js               Vue初始化入口文件
+├─App.vue               应用配置，用来配置App全局样式以及监听 应用生命周期
+├─manifest.json         配置应用名称、appid、logo、版本等打包信息
+└─pages.json            配置页面路由、导航条、选项卡等页面类信息
+</code></pre></div><p>注意：</p> <ul><li>static 目录下的 js 文件不会被编译，如果里面有 es6 的代码，不经过转换直接运行，在手机设备上会报错。</li> <li>css、less/scss 等资源同样不要放在 static 目录下，建议这些公用的资源放在 common 目录下。</li></ul> <h2 id="_03-基础用法"><a href="#_03-基础用法" class="header-anchor">#</a> 03 基础用法</h2> <p>本节我们主要结合项目实战，熟悉一下uni-app的开发常识。</p> <h3 id="_3-1-pages-json文件"><a href="#_3-1-pages-json文件" class="header-anchor">#</a> 3.1 pages.json文件</h3> <p>pages.json 文件用来对 uni-app 进行全局配置，决定页面文件的路径、窗口样式、原生的导航栏、底部的原生tabbar 等。</p> <p>它类似微信小程序中app.json的页面管理部分。注意定位权限申请等原属于app.json的内容，在uni-app中是在manifest中配置。</p> <p>以下是我们学习项目配置选项的pages.json：</p> <div class="language- extra-class"><pre class="language-text"><code>{
+	&quot;pages&quot;: [ 
+    {
+			&quot;path&quot;: &quot;pages/index/index&quot;,
+			&quot;style&quot;: {
+				&quot;navigationBarTitleText&quot;: &quot;首页&quot;
+			}
+    },
+    {
+			&quot;path&quot;: &quot;pages/index/articleDetail&quot;,
+			&quot;style&quot;: {
+        &quot;navigationBarTitleText&quot;: &quot;文章详情&quot;,
+          &quot;disableScroll&quot;: true
+			}
+    },
+    {
+			&quot;path&quot;: &quot;pages/student/studentInfo&quot;,
+			&quot;style&quot;: {
+        &quot;navigationBarTitleText&quot;: &quot;孩子详情&quot;,
+          &quot;disableScroll&quot;: true
+			}
+    },
+    {
+			&quot;path&quot;: &quot;pages/student/recordDetail&quot;,
+			&quot;style&quot;: {
+				&quot;navigationBarTitleText&quot;: &quot;作品详情&quot;
+			}
+    },
+    {
+			&quot;path&quot;: &quot;pages/student/studentEdit&quot;,
+			&quot;style&quot;: {
+				&quot;navigationBarTitleText&quot;: &quot;编辑信息&quot;
+			}
+    },
+    {
+			&quot;path&quot;: &quot;pages/mine/mine&quot;,
+			&quot;style&quot;: {
+				&quot;navigationBarTitleText&quot;: &quot;我的&quot;
+			}
+    },
+    {
+			&quot;path&quot;: &quot;pages/user/setting&quot;,
+			&quot;style&quot;: {
+				&quot;navigationBarTitleText&quot;: &quot;设置&quot;
+			}
+        },
+    {
+      &quot;path&quot;: &quot;pages/mine/about&quot;,
+      &quot;style&quot;: {
+          &quot;navigationBarTitleText&quot;: &quot;关于我们&quot;
+      }
+    },
+    {
+      &quot;path&quot;: &quot;pages/user/login&quot;,
+      &quot;style&quot;: {
+          &quot;navigationBarTitleText&quot;: &quot;登录&quot;
+      }
+    },
+    {
+      &quot;path&quot;: &quot;pages/user/smsLogin&quot;,
+      &quot;style&quot;: {
+          &quot;navigationBarTitleText&quot;: &quot;验证码注册登录&quot;
+      }
+    },
+    {
+      &quot;path&quot;: &quot;pages/user/userInfo&quot;,
+      &quot;style&quot;: {
+          &quot;navigationBarTitleText&quot;: &quot;基本信息&quot;
+      }
+    },
+    {
+      &quot;path&quot;: &quot;pages/user/password&quot;,
+      &quot;style&quot;: {
+          &quot;navigationBarTitleText&quot;: &quot;更改密码&quot;
+      }
+    },
+    {
+      &quot;path&quot;: &quot;pages/user/mobile&quot;,
+      &quot;style&quot;: {
+          &quot;navigationBarTitleText&quot;: &quot;更改手机&quot;
+      }
+    }
+  ],
+  &quot;tabBar&quot;: {
+    &quot;backgroundColor&quot;: &quot;#fff&quot;,
+    &quot;color&quot;: &quot;#000&quot;,
+    &quot;selectedColor&quot;: &quot;#3397e4&quot;,
+    &quot;borderStyle&quot;: &quot;black&quot;,
+    &quot;list&quot;: [{
+        &quot;pagePath&quot;: &quot;pages/index/index&quot;,
+        &quot;iconPath&quot;: &quot;/static/tabs/home_normal.png&quot;,
+        &quot;selectedIconPath&quot;: &quot;/static/tabs/home_selected.png&quot;,
+        &quot;text&quot;: &quot;首页&quot;
+    }, {
+        &quot;pagePath&quot;: &quot;pages/mine/mine&quot;,
+        &quot;iconPath&quot;: &quot;/static/tabs/mine_normal.png&quot;,
+        &quot;selectedIconPath&quot;: &quot;/static/tabs/mine_selected.png&quot;,
+        &quot;text&quot;: &quot;我的&quot;
+    }]
+    },
+	&quot;globalStyle&quot;: {
+		&quot;navigationBarTextStyle&quot;: &quot;white&quot;,
+		&quot;navigationBarTitleText&quot;: &quot;uni-app&quot;,
+		&quot;navigationBarBackgroundColor&quot;: &quot;#3397e4&quot;,
+		&quot;backgroundColor&quot;: &quot;#F8F8F8&quot;
+	}
+}
+</code></pre></div><p>globalStyle 用于设置应用的状态栏、导航条、标题、窗口背景色等。</p> <p>pages 节点配置应用由哪些页面组成，pages 节点接收一个数组，数组每个项都是一个对象。</p> <ul><li>pages节点的第一项为应用入口页（即首页）</li> <li>应用中新增/减少页面，都需要对 pages 数组进行修改</li> <li>文件名不需要写后缀，框架会自动寻找路径下的页面资源</li> <li>style：用于设置每个页面的状态栏、导航条、标题、窗口背景色等，页面中配置项会覆盖 globalStyle 中相同的配置项。</li></ul> <p>如果应用是一个多 tab 应用，可以通过 tabBar 配置项指定 tab 栏的表现，以及 tab 切换时显示的对应页。</p> <ul><li>当设置 position 为 top 时，将不会显示 icon</li> <li>tabBar 中的 list 是一个数组，只能配置最少2个、最多5个 tab，tab 按数组的顺序排序。</li> <li>tabbar 切换第一次加载时可能渲染不及时，可以在每个tabbar页面的onLoad生命周期里先弹出一个等待雪花（hello uni-app使用了此方式）</li> <li>tabbar 的页面展现过一次后就保留在内存中，再次切换 tabbar 页面，只会触发每个页面的onShow，不会再触发onLoad。</li> <li>顶部的 tabbar 目前仅微信小程序上支持。需要用到顶部选项卡的话，建议不使用 tabbar 的顶部设置，而是自己做顶部选项卡，可参考 hello uni-app-&gt;模板-&gt;顶部选项卡。</li></ul> <h3 id="_3-2-manifest-json文件"><a href="#_3-2-manifest-json文件" class="header-anchor">#</a> 3.2 manifest.json文件</h3> <p>manifest.json 文件是应用的配置文件，用于指定应用的名称、图标、权限等。</p> <p>uni-app 的 appid 由 DCloud 云端分配，主要用于 DCloud 相关的云服务，请勿自行修改。</p> <p>注意区分 uni-app 的 appid 与微信小程序、iOS 等其它平台分配的 appid，以及第三方 SDK 的 appid。</p> <p>networkTimeout：各类网络请求的超时时间，单位均为毫秒</p> <h3 id="_3-3-package-json文件"><a href="#_3-3-package-json文件" class="header-anchor">#</a> 3.3 package.json文件</h3> <p>通过在package.json文件中增加uni-app扩展节点，可实现自定义条件编译平台（如钉钉小程序、微信服务号等平台）。</p> <p>package.json扩展配置用法（拷贝代码记得去掉注释！）：</p> <div class="language- extra-class"><pre class="language-text"><code>{
+    /**
+     package.json其它原有配置 
+     */
+    &quot;uni-app&quot;: {// 扩展配置
+        &quot;scripts&quot;: {
+            &quot;custom-platform&quot;: { //自定义编译平台配置，可通过cli方式调用
+                &quot;title&quot;:&quot;自定义扩展名称&quot;, // 在HBuilderX中会显示在 运行/发行 菜单中
+                &quot;BROWSER&quot;:&quot;&quot;,  //运行到的目标浏览器，仅当UNI_PLATFORM为h5时有效
+                &quot;env&quot;: {//环境变量
+                    &quot;UNI_PLATFORM&quot;: &quot;&quot;  //基准平台 
+                 },
+                &quot;define&quot;: { //自定义条件编译
+                    &quot;CUSTOM-CONST&quot;: true //自定义条件编译常量，建议为大写
+                }
+            }
+        }    
+    }
+}
+</code></pre></div><ul><li>UNI_PLATFORM仅支持填写uni-app默认支持的基准平台，目前仅限如下枚举值：h5、mp-weixin、mp-alipay、mp-baidu、mp-toutiao、mp-qq</li> <li>BROWSER 仅在UNI_PLATFORM为h5时有效,目前仅限如下枚举值：Chrome、Firefox、IE、Edge、Safari、HBuilderX</li> <li>package.json文件中不允许出现注释，否则扩展配置无效</li></ul> <h3 id="_3-3-vue-config-js文件"><a href="#_3-3-vue-config-js文件" class="header-anchor">#</a> 3.3 vue.config.js文件</h3> <p>vue.config.js 是一个可选的配置文件，如果项目的根目录中存在这个文件，那么它会被自动加载，一般用于配置 webpack 等编译选项。</p> <p>publicPath 不支持，如果需要配置，请在 manifest.json-&gt;h5-&gt;router-&gt;base 中配置。</p> <p>使用cli项目时，默认情况下 babel-loader 会忽略所有 node_modules 中的文件。如果你想要通过 Babel 显式转译一个依赖，可以在transpileDependencies中列出来。</p> <h3 id="_3-4-uni-scss文件"><a href="#_3-4-uni-scss文件" class="header-anchor">#</a> 3.4 uni.scss文件</h3> <p>uni.scss文件的用途是为了方便整体控制应用的风格。比如按钮颜色、边框风格，uni.scss文件里预置了一批scss变量预置。</p> <p>uni-app 官方扩展插件（uni ui）及 插件市场 上很多三方插件均使用了这些样式变量，如果你是插件开发者，建议你使用 scss 预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App。</p> <p>uni.scss是一个特殊文件，在代码中无需 import 这个文件即可在scss代码中使用这里的样式变量。uni-app的编译器在webpack配置中特殊处理了这个uni.scss，使得每个scss文件都被注入这个uni.scss，达到全局可用的效果。如果开发者想要less、stylus的全局使用，需要在vue.config.js中自行配置webpack策略。</p> <h3 id="_3-5-app-vue文件"><a href="#_3-5-app-vue文件" class="header-anchor">#</a> 3.5 App.vue文件</h3> <p>App.vue是uni-app的主组件，所有页面都是在App.vue下进行切换的，是页面入口文件。但App.vue本身不是页面，这里不能编写视图元素。</p> <p>这个文件的作用包括：调用应用生命周期函数、配置全局样式、配置全局的存储globalData</p> <p>应用生命周期仅可在App.vue中监听，在页面监听无效。</p> <p>uni-app 支持如下应用生命周期函数：</p> <ul><li>onLaunch	当uni-app 初始化完成时触发（全局只触发一次）</li> <li>onShow	当 uni-app 启动，或从后台进入前台显示</li> <li>onHide	当 uni-app 从前台进入后台</li> <li>onError	当 uni-app 报错时触发</li></ul> <p>在App.vue文件里使用生命周期函数，如下：</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;script&gt;  
+    export default {  
+        onLaunch: function() {  
+            console.log('App Launch，app启动')  
+        },  
+        onShow: function() {  
+            console.log('App Show，app展现在前台')  
+        },  
+        onHide: function() {  
+            console.log('App Hide，app不再展现在前台')  
+        }  
+    }  
+&lt;/script&gt;
+</code></pre></div><p>globalData: 小程序有globalData，这是一种简单的全局变量机制。这套机制在uni-app里也可以使用，并且全端通用。</p> <p>在App.vue中，可以一些定义全局通用样式，例如需要加一个通用的背景色，首屏页面渲染的动画等都可以写在App.vue中。</p> <h3 id="_3-6-main-js文件"><a href="#_3-6-main-js文件" class="header-anchor">#</a> 3.6 main.js文件</h3> <p>main.js是uni-app的入口文件，主要作用是初始化vue实例、定义全局组件、使用需要的插件如vuex。</p> <p>首先引入了Vue库和App.vue，创建了一个vue实例，并且挂载vue实例。</p> <div class="language- extra-class"><pre class="language-text"><code>import Vue from 'vue'
+import App from './App'
+import pageHead from './components/page-head.vue' //全局引用page-head组件
+
+Vue.config.productionTip = false
+Vue.component('page-head', pageHead) //全局注册page-head组件，每个页面将可以直接使用该组件
+App.mpType = 'app'
+
+const app = new Vue({
+    ...App
+})
+app.$mount() //挂载Vue实例
+</code></pre></div><p>使用Vue.use引用插件，使用Vue.prototype添加全局变量，使用Vue.component注册全局组件。无法使用vue-router，路由须在pages.json中进行配置。如果开发者坚持使用vue-router，可以在插件市场找到转换插件。</p> <h2 id="_04-使用组件"><a href="#_04-使用组件" class="header-anchor">#</a> 04 使用组件</h2> <p>uni-app为开发者提供了一系列基础组件，类似HTML里的基础标签元素。但uni-app的组件与HTML不同，而是与小程序相同，更适合手机端使用。</p> <p>虽然不推荐使用HTML标签，但实际上如果开发者写了div等标签，在编译到非H5平台时也会被编译器转换为view标签，类似的还有span转text、a转navigator等，包括css里的元素选择器也会转。但为了管理方便、策略统一，新写代码时仍然建议使用view等组件。</p> <p>开发者可以通过组合这些基础组件进行快速开发。 基于内置的基础组件，可以开发各种扩展组件，组件规范与vue组件相同。</p> <h3 id="_4-1-什么是组件？"><a href="#_4-1-什么是组件？" class="header-anchor">#</a> 4.1 什么是组件？</h3> <p>组件是视图层的基本组成单元，一个组件包括开始标签和结束标签，标签上可以写属性，并对属性赋值。内容则写在两个标签之内。</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;template&gt;
+    &lt;view&gt;
+        &lt;tagname property=&quot;value&quot;&gt;
+            content
+        &lt;/tagname&gt;
+    &lt;/view&gt;
+&lt;/template&gt;
+</code></pre></div><ul><li>所有组件与属性名都是小写，单词之间以连字符-连接。</li> <li>根节点为 <code>&lt;template&gt;，这个 &lt;template&gt;</code> 下只能且必须有一个根<code>&lt;view</code>&gt;组件。这是vue单文件组件规范。</li> <li>平台差异说明若无特殊说明，则表示所有平台均支持。</li></ul> <p>所有组件都有的属性：
+属性名	   类型	          描述	          注解
+id	    String	      组件的唯一标示	 保持整个页面唯一
+class	  String	      组件的样式类	   在对应的 css 中定义的样式类
+style	  String	      组件的内联样式	 可以动态设置的内联样式
+hidden	Boolean	      组件是否隐藏	   所有组件默认是显示的
+data-*	Any	          自定义属性	     组件上触发的事件时，会发送给事件处理函数
+@*	    EventHandler	组件的事件	     详见各组件详细文档，事件绑定参考 事件处理器</p> <p>几乎所有组件都有各自自定义的属性，可以对该组件的功能或样式进行修饰，请参考各个组件的定义。</p> <h3 id="_4-2-视图容器组件"><a href="#_4-2-视图容器组件" class="header-anchor">#</a> 4.2 视图容器组件</h3> <ul><li>view	视图容器，类似于HTML中的div</li> <li>scroll-view	可滚动视图容器</li> <li>swiper	滑块视图容器</li></ul> <h3 id="_4-3-基础内容组件"><a href="#_4-3-基础内容组件" class="header-anchor">#</a> 4.3 基础内容组件</h3> <ul><li>icon	图标</li> <li>text	文字</li> <li>rich-text	富文本</li> <li>progress	进度条</li></ul> <h3 id="_4-4-表单组件"><a href="#_4-4-表单组件" class="header-anchor">#</a> 4.4 表单组件</h3> <ul><li>button	按钮</li> <li>form	表单</li> <li>input	输入框</li> <li>checkbox	多项选择器</li> <li>radio	单项选择器</li> <li>picker	弹出式列表选择器</li> <li>picker-view	窗体内嵌式列表选择器</li> <li>slider	滑动选择器</li> <li>switch	开关选择器</li> <li>label	标签</li></ul> <h3 id="_4-5-媒体组件"><a href="#_4-5-媒体组件" class="header-anchor">#</a> 4.5 媒体组件</h3> <ul><li>audio	音频</li> <li>camera	相机</li> <li>image	图片</li> <li>video	视频</li> <li>live-player	直播播放</li> <li>live-pusher	实时音视频录制，也称直播推流</li></ul> <h3 id="_4-6-扩展组件"><a href="#_4-6-扩展组件" class="header-anchor">#</a> 4.6 扩展组件</h3> <p>uni-ui是DCloud提供的一个跨端ui库，它是基于vue组件的、flex布局的、无dom的跨全端ui框架。</p> <p>uni-ui不包括基础组件，它是基础组件的补充。</p> <p>安装 uni-ui</p> <div class="language- extra-class"><pre class="language-text"><code>npm install @dcloudio/uni-ui
+</code></pre></div><p>在 script 中引用组件：</p> <div class="language- extra-class"><pre class="language-text"><code>import {uniBadge} from '@dcloudio/uni-ui'
+export default {
+    components: {uniBadge}
+}
+</code></pre></div><h2 id="_05-使用api"><a href="#_05-使用api" class="header-anchor">#</a> 05 使用API</h2> <p>uni-app的js API由标准ECMAScript的js API 和 uni 扩展 API 这两部分组成。</p> <h3 id="_5-1-标准js和浏览器js的区别"><a href="#_5-1-标准js和浏览器js的区别" class="header-anchor">#</a> 5.1 标准js和浏览器js的区别</h3> <p>uni-app的js代码，h5端运行于浏览器中。非h5端，Android平台运行在v8引擎中，iOS平台运行在iOS自带的jscore引擎中。</p> <p>非H5端，虽然不支持window、document、navigator等浏览器的js API，但也支持标准ECMAScript。</p> <p>开发者不要把浏览器里的js等价于标准js。</p> <p>ECMAScript由Ecma国际管理，是基础js语法。浏览器基于标准js扩充了window、document等js API；Node.js基于标准js扩充了fs等模块；小程序也基于标准js扩展了各种wx.xx、my.xx、swan.xx的API。</p> <p>所以uni-app的非H5端，一样支持标准js，支持if、for等语法，支持字符串、数组、时间等变量及各种处理方法。仅仅是不支持浏览器专用对象。</p> <h3 id="_5-2-路由跳转"><a href="#_5-2-路由跳转" class="header-anchor">#</a> 5.2 路由跳转</h3> <ul><li>uni.navigateTo	保留当前页面，跳转到应用内的某个页面，使用uni.navigateBack可以返回到原页面</li> <li>uni.redirectTo	关闭当前页面，跳转到应用内的某个页面</li> <li>uni.reLaunch	关闭所有页面，打开到应用内的某个页面</li> <li>uni.switchTab	跳转到 tabBar 页面，并关闭其他所有非 tabBar 页面</li> <li>uni.navigateBack	关闭当前页面，返回上一页面或多级页面</li></ul> <div class="language- extra-class"><pre class="language-text"><code>//在起始页面跳转到test.vue页面并传递参数
+uni.navigateTo({
+    url: 'test?id=1&amp;name=uniapp'
+});
+
+// 在test.vue页面接受参数
+export default {
+    onLoad: function (option) { //option为object类型，会序列化上个页面传递的参数
+        console.log(option.id); //打印出上个页面传递的参数。
+        console.log(option.name); //打印出上个页面传递的参数。
+    }
+}
+</code></pre></div><p>url有长度限制，太长的字符串会传递失败，可使用窗体通信、全局变量，或encodeURIComponent等多种方式解决。</p> <ul><li>页面跳转路径有层级限制，不能无限制跳转新页面</li> <li>跳转到 tabBar 页面只能使用 switchTab 跳转</li> <li>路由API的目标页面必须是在pages.json里注册的vue页面。如果想打开web url，在App平台可以使用 plus.runtime.- - openURL或web-view组件；H5平台使用 window.open；小程序平台使用web-view组件（url需在小程序的联网白名单中）。</li></ul> <h3 id="_5-3-交互反馈"><a href="#_5-3-交互反馈" class="header-anchor">#</a> 5.3 交互反馈</h3> <ul><li>uni.showToast	显示提示框</li> <li>uni.showLoading	显示加载提示框</li> <li>uni.hideToast	隐藏提示框</li> <li>uni.hideLoading	隐藏提示框</li> <li>uni.showModal	显示模态弹窗</li> <li>uni.showActionSheet	显示菜单列表</li></ul> <h3 id="_5-4-发起请求"><a href="#_5-4-发起请求" class="header-anchor">#</a> 5.4 发起请求</h3> <p>uni.request	发起网络请求: 在各个小程序平台运行时，网络相关的 API 在使用前需要配置域名白名单。</p> <div class="language- extra-class"><pre class="language-text"><code>uni.request({
+    url: 'https://www.example.com/request', //仅为示例，并非真实接口地址。
+    data: {
+        text: 'uni.request'
+    },
+    header: {
+        'custom-header': 'hello' //自定义请求头信息
+    },
+    success: (res) =&gt; {
+        console.log(res.data);
+        this.text = 'request success';
+    }
+});
+</code></pre></div><ul><li>如果希望返回一个 requestTask 对象，需要至少传入 success / fail / complete 参数中的一个。</li> <li>如果没有传入 success / fail / complete 参数，则会返回封装后的 Promise 对象。</li> <li>请求的 header 中 content-type 默认为 application/json。</li> <li>网络请求的 超时时间 可以统一在 manifest.json 中配置 networkTimeout。</li> <li>H5 端本地调试需注意跨域问题</li></ul> <h3 id="_5-5-数据缓存"><a href="#_5-5-数据缓存" class="header-anchor">#</a> 5.5 数据缓存</h3> <ul><li>uni.getStorage	获取本地数据缓存</li> <li>uni.getStorageSync	获取本地数据缓存</li> <li>uni.setStorage	设置本地数据缓存</li> <li>uni.setStorageSync	设置本地数据缓存</li> <li>uni.getStorageInfo	获取本地缓存的相关信息</li> <li>uni.getStorageInfoSync	获取本地缓存的相关信息</li> <li>uni.removeStorage	删除本地缓存内容</li> <li>uni.removeStorageSync	删除本地缓存内容</li> <li>uni.clearStorage	清理本地数据缓存</li> <li>uni.clearStorageSync	清理本地数据缓存</li></ul> <h3 id="_5-6-图片"><a href="#_5-6-图片" class="header-anchor">#</a> 5.6 图片</h3> <ul><li>uni.chooseImage	从相册选择图片，或者拍照</li> <li>uni.previewImage	预览图片</li> <li>uni.getImageInfo	获取图片信息</li> <li>uni.saveImageToPhotosAlbum	保存图片到系统相册</li></ul> <h3 id="_5-7-上传、下载"><a href="#_5-7-上传、下载" class="header-anchor">#</a> 5.7 上传、下载</h3> <ul><li>uni.uploadFile	上传文件</li> <li>uni.downloadFile	下载文件</li></ul> <div class="language- extra-class"><pre class="language-text"><code>uni.chooseImage({
+    success: (chooseImageRes) =&gt; {
+        const tempFilePaths = chooseImageRes.tempFilePaths;
+        uni.uploadFile({
+            url: 'https://www.example.com/upload', //仅为示例，非真实的接口地址
+            filePath: tempFilePaths[0],
+            name: 'file',
+            formData: {
+                'user': 'test'
+            },
+            success: (uploadFileRes) =&gt; {
+                console.log(uploadFileRes.data);
+            }
+        });
+    }
+});
+</code></pre></div><p>如果希望返回一个 uploadTask 对象，需要至少传入 success / fail / complete 参数中的一个。通过 uploadTask，可监听上传进度变化事件，以及取消上传任务。</p> <h2 id="_06-第三方库的使用"><a href="#_06-第三方库的使用" class="header-anchor">#</a> 06 第三方库的使用</h2> <h3 id="_6-1-为何使用第三方库或插件？"><a href="#_6-1-为何使用第三方库或插件？" class="header-anchor">#</a> 6.1 为何使用第三方库或插件？</h3> <p>从企业的角度来讲，主要是了降低成本和提升开发效率。</p> <p>从应用的角度来讲，主要是有时官方没有提供较好的解决方案，比如滚动的处理，scroll-view 实现的加载刷新实属体验极差。</p> <h3 id="_6-2-什么是mescroll-uni？"><a href="#_6-2-什么是mescroll-uni？" class="header-anchor">#</a> 6.2 什么是mescroll-uni？</h3> <p>官方 http://www.mescroll.com/ 介绍：mescroll--精致的下拉刷新和上拉加载js框架。而mescroll-uni是mescroll的uni版本, 是在 uni-app 运行的下拉刷新和上拉加载的组件。</p> <ul><li>mescroll的uni版本, 是专门用在uni-app的下拉刷新和上拉加载的组件, 支持一套代码编译到iOS、Android、H5、小程序等多个平台</li> <li>mescroll的uni版本, 继承了mescroll.js的实用功能: 自动处理分页, 自动控制无数据, 空布局提示, 回到顶部按钮 ..</li> <li>mescroll的uni版本, 丰富的案例, 自由灵活的api, 超详细的注释, 可让您快速自定义真正属于自己的下拉上拉组件</li> <li>mescroll的uni版本, 提供<code>&lt;mescroll-body&gt;和&lt;mescroll-uni&gt;</code>两个组件, 其中<code>&lt;mescroll-body&gt;</code>支持配置成系统自带的下拉组件</li> <li><code>&lt;mescroll-body&gt;</code>是1.2.1版本新增的组件, 用来填补<code>&lt;mescroll-uni&gt;</code>的不足。</li></ul> <h3 id="_6-3-使用mescroll-uni"><a href="#_6-3-使用mescroll-uni" class="header-anchor">#</a> 6.3 使用mescroll-uni</h3> <p>mescroll支持npm安装:</p> <div class="language- extra-class"><pre class="language-text"><code>npm install --save mescroll-uni
+</code></pre></div><p>但不推荐, 因为设置mescroll为全局组件, 编译到APP可能会失效 (如果APP端不注册全局组件, 可使用npm安装)。</p> <p>所以最好的做法是直接去官网下载源码，放到我们的components目录下，自己封装一下，供各个页面调用，比如：</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;mescroll-uni 
+  ref=&quot;mescrollRef&quot;
+  :top=&quot;mescrollTop&quot; 
+  :down=&quot;{auto: false}&quot;
+  bottom=&quot;10&quot; 
+  @down=&quot;onPullDown&quot; 
+  @up=&quot;onPullUp&quot;
+  &gt;
+  &lt;view v-for=&quot;(item, index) in articles&quot; :key=&quot;index&quot; class=&quot;record-wrap&quot;&gt;
+    &lt;ArticleItem @onClick=&quot;onClick&quot; :item=&quot;item&quot;&gt;&lt;/ArticleItem&gt;
+  &lt;/view&gt;
+&lt;/mescroll-uni&gt;
+
+import MescrollUni from '@/components/scroll-list/index.vue';
+import ArticleItem from '@/components/items/ArticleItem';
+
+export default {
+  components: {
+    MescrollUni,
+    ArticleItem
+  },
+  data() {
+    return {
+      mescrollTop: 450,
+      indicatorDots: true,
+      autoplay: false,
+      interval: 2000,
+      duration: 500,
+      banners: [],
+      articles: [],
+      params: {
+        offset: 0,
+        limit: 5,
+        count: 0,
+        currentPage: 1,
+        shartItem: {}
+      },
+    };
+  },
+  methods: {
+    onPullDown(mescroll) {
+      this.params.offset = 0;
+      this.params.currentPage = 1;
+      this.banners = [];
+      this.articles = [];
+      this.getHomeData(mescroll);
+    },
+    onPullUp(mescroll) {
+      if (this.params.currentPage * 10 &lt; this.params.count) {
+        this.params.offset = this.params.currentPage * this.params.limit;
+        this.params.currentPage += 1;
+        this.getHomeData(mescroll,);
+      }
+    },
+  },
+};
+
+</code></pre></div><h2 id="_07-多端兼容和打包上传"><a href="#_07-多端兼容和打包上传" class="header-anchor">#</a> 07 多端兼容和打包上传</h2> <p>uni-app 在发布到H5时支持所有vue的语法；发布到App和小程序时，由于平台限制，无法实现全部vue语法，但uni-app仍是是对vue语法支持度最高的跨端框架。</p> <p>uni-app 已将常用的组件、JS API 封装到框架中，开发者按照 uni-app 规范开发即可保证多平台兼容，大部分业务均可直接满足。</p> <p>但每个平台有自己的一些特性，因此会存在一些无法跨平台的情况。</p> <p>大量写 if else，会造成代码执行性能低下和管理混乱,编译到不同的工程后二次修改，会让后续升级变的很麻烦。</p> <p>在 C 语言中，通过 #ifdef、#ifndef 的方式，为 windows、mac 等不同 os 编译不同的代码。 uni-app 参考这个思路，为 uni-app 提供了条件编译手段，在一个工程里优雅的完成了平台个性化实现。</p> <h3 id="_7-1-h5正常但小程序异常的可能性"><a href="#_7-1-h5正常但小程序异常的可能性" class="header-anchor">#</a> 7.1 H5正常但小程序异常的可能性</h3> <ul><li>v-html在h5和app-vue(v3编译模式)均支持，但小程序不支持</li> <li>小程序要求连接的网址都要配白名单</li></ul> <h3 id="_7-2-小程序正常，但h5异常的可能性"><a href="#_7-2-小程序正常，但h5异常的可能性" class="header-anchor">#</a> 7.2 小程序正常，但H5异常的可能性</h3> <ul><li>在 uni-app 2.4.7 以前，H5端不支持微信小程序自定义组件，即wxcomponets下的组件，此时可能产生兼容问题。从 2.4.7 起，H5也支持微信自定义组件，不再存在这这方面兼容问题。</li> <li>使用了小程序专用的功能，比如微信卡卷、小程序插件、微信小程序云开发</li></ul> <h3 id="_7-3-区别于传统-web-开发的注意"><a href="#_7-3-区别于传统-web-开发的注意" class="header-anchor">#</a> 7.3 区别于传统 web 开发的注意</h3> <p>你之前可能习惯自由的web开发，但目前各家小程序都有很多限制。 当然限制是为了在框架层更好的优化用户体验，所以小程序的体验要优于web。 并且这些限制只是写法的限制，并不影响功能。 如果你做过微信小程序开发，对这些限制应该已经很了解了。</p> <ul><li>非H5端，不能使用浏览器自带对象，比如document、window、localstorage、cookie等，更不能使用jquery等依赖这些浏览器对象的框架。因为各家小程序快应用都不支持这些对象。</li> <li>uni的api是多端可用的。在条件编译区，每个平台的专有api也可以使用，比如wx.、plus.等api可以分别在微信下和app下使用。</li> <li>出于降低小程序向uni-app迁移成本的考虑，wx的api在app里也可以直接运行，比如写wx.requst和uni.requst是一样的，但仍然建议仅在微信的条件编译区使用wx的api</li> <li>uni-app的tag同小程序的tag，和HTML的tag不一样，比如div要改成view，span要改成text、a要改成navigator。</li> <li>出于降低h5应用向uni-app迁移成本的考虑，写成div、span也可以运行在app和小程序上，因为uni-app编译器会把这些HTML标签编译为小程序标签。但仍然建议养成新习惯。</li> <li>虽然大部分css样式在微信小程序和app中都可以支持，但推荐使用flex布局模型，这种布局更灵活高效且支持更多平台</li> <li>单位方面，uni-app默认为rpx。这是一种可跨端的通用单位.</li> <li>每个要显示的页面，都要放到pages目录下，新建一个页面所在的目录，然后放同名目录的vue文件，比如project/pages/lista/lista.vue，并且在pages.json里配置</li> <li>自定义组件，放到component目录</li> <li>静态资源如图片，固定放到static目录下。这是webpack、mpvue的规则</li> <li>H5 版 uni-app 全支持 vue 语法，所以可能造成部分写法在 H5 端生效，在小程序或 App 端不生效。</li> <li>H5 校验了更严格的 vue 语法，有些写法不规范会报警，比如： data 后面写对象会报警，必须写 function；不能修改 props 的值；组件最外层 template 节点下不允许包含多个节点等。</li></ul> <h3 id="_7-4-打包部署"><a href="#_7-4-打包部署" class="header-anchor">#</a> 7.4 打包部署</h3> <p>不同平台的不一样，这里只提供微信小程序和H5的一些打包脚本参考，其中小程序的需要借助对应的开发者工具上传到对应的平台。</p> <div class="language- extra-class"><pre class="language-text"><code>&quot;h5&quot;: &quot;rm src/api/url.js &amp;&amp; cp src/api/urlH5.js src/api/url.js&quot;,
+&quot;local&quot;: &quot;rm src/api/url.js &amp;&amp; cp src/api/urlLocal.js src/api/url.js&quot;,
+&quot;prod&quot;: &quot;rm src/api/url.js &amp;&amp; cp src/api/urlWx.js src/api/url.js&quot;,
+&quot;deployH5&quot;: &quot;npm run pp &amp;&amp; npm run pb &amp;&amp; npm run pc &amp;&amp; npm run pm2&quot;,
+&quot;pm2&quot;: &quot;pm2 deploy ecosystem.json production&quot;,
+&quot;pp&quot;: &quot;git reset --hard &amp;&amp; git pull &amp;&amp; npm i &amp;&amp; npm run h5 &quot;,
+&quot;pc&quot;: &quot;git add . &amp;&amp; git commit -m 'deploy' &amp;&amp; git push&quot;,
+&quot;pb&quot;: &quot;rm -rf pdist &amp;&amp; npm run build:h5 &amp;&amp; mv dist/build/h5 pdist&quot;,
+&quot;start&quot;: &quot;npm run h5 &amp;&amp; URL_ENV=production npm run dev:h5&quot;,
+&quot;dev&quot;: &quot;npm run h5 &amp;&amp; npm run dev:h5&quot;,
+&quot;swx&quot;: &quot;npm run prod &amp;&amp; npm run dev:mp-weixin&quot;,
+&quot;dwx&quot;: &quot;npm run local &amp;&amp; npm run dev:mp-weixin&quot;,
+&quot;deployWx&quot;: &quot;npm run prod &amp;&amp; npm run build:mp-weixin&quot;,
+&quot;build:h5&quot;: &quot;cross-env NODE_ENV=production UNI_PLATFORM=h5 vue-cli-service uni-build&quot;,
+&quot;build:mp-weixin&quot;: &quot;cross-env NODE_ENV=production UNI_PLATFORM=mp-weixin vue-cli-service uni-build&quot;,
+&quot;dev:h5&quot;: &quot;cross-env NODE_ENV=development UNI_PLATFORM=h5 vue-cli-service uni-serve&quot;,
+&quot;dev:mp-weixin&quot;: &quot;cross-env NODE_ENV=development UNI_PLATFORM=mp-weixin vue-cli-service uni-build --watch&quot;,
+</code></pre></div><p>所以我们部署h5时只需执行 npm run deployH5 即可，而打包微信小程序则需要执行 npm run deployWx，然后用微信开发者工具上传到微信的云服务器，审核通过后即可发布。</p> <h2 id="_08-模拟面试"><a href="#_08-模拟面试" class="header-anchor">#</a> 08 模拟面试</h2> <p>虽然本系列课的知识点，一般在面试中很少会涉及，不过对于一些工作超过三年的同学，还是会问到的，而对于初级工程师，如果也能有一定了解，则可在面试时加分，所以我们还是以问答的形式带大家回顾本系列课的学习内容。</p> <h3 id="_8-1-什么是小程序？"><a href="#_8-1-什么是小程序？" class="header-anchor">#</a> 8.1 什么是小程序？</h3> <p>2017年1月份小程序诞生，到现在已经超过3年的时间了，正在经历慢慢的被越来越多的人发现的过程。</p> <p>微信小程序官网是这么介绍的：小程序是一种新的开放能力，开发者可以快速地开发一个小程序。小程序可以在微信内被便捷地获取和传播，同时具有出色的使用体验。</p> <p>它实现了应用“触手可及”的梦想，用户扫一扫或者搜一下即可打开应用，也体现了“用完即走”的理念，用户不用关心是否安装太多应用的问题。</p> <p>与传统app相比，小程序无需安装、卸载，用完即走，触手可及，与用户不是粉丝关系，是访问关系，后台数据是微信标准化数据，不能自由选取。</p> <p>与应用商店相比，小程序没有应用商店，也不做应用分发平台，不能进行模糊搜索，覆盖的只是用户的特定场景下的注意力资源，满足用户特定场景的需求，不是完整的产品应用。</p> <p>与公众号相比，小程序连接的是人与服务，有可能取代大部分的“服务号”，但无法完全取代订阅号，订阅号连接的是人与特定的产品化信息，小程序与公众号可相互自由跳转，彼此赋能。</p> <h3 id="_8-2-小程序的实现原理"><a href="#_8-2-小程序的实现原理" class="header-anchor">#</a> 8.2 小程序的实现原理</h3> <p>小程序是基于WEB规范，采用HTML,CSS和JS等搭建的一套框架，微信官方给它们取了一个很牛逼的名字：WXML,WXSS，但本质上还是在整个WEB体系之下构建的。</p> <p>WXML，取这个名字的是微信的Xml，说到底就是xml的一个子集。WXML采用微信自定义的少量标签WXSS，大家可以理解为就是自定义的CSS。实现逻辑部分的JS还是通用的ES规范，并且runtime还是Webview（IOS WKWEBVIEW, ANDROID X5）。</p> <p>微信开发者工具本身也是基于WEB技术体系实现的，nwjs+react，nwjs是什么：简单是说就是node+webkit，node提供给我们本地api能力，而webkit提供给我们web能力，两者结合就能让我们使用JS+HTML实现本地应用程序。</p> <p>微信小程序的框架包含两部分View视图层、App Service逻辑层，View层用来渲染页面结构，AppService层用来逻辑处理、数据请求、接口调用，它们在两个进程（两个Webview）里运行。</p> <p>视图层和逻辑层通过系统层的JSBridage进行通信，逻辑层把数据变化通知到视图层，触发视图层页面更新，视图层把触发的事件通知到逻辑层进行业务处理。</p> <p>小程序的UI视图和逻辑处理是用多个webview实现的，逻辑处理的JS代码全部加载到一个Webview里面，称之为AppService，整个小程序只有一个，并且整个生命周期常驻内存，而所有的视图（wxml和wxss）都是单独的Webview来承载，称之为AppView。</p> <p>所以一个小程序打开至少就会有2个webview进程，正式因为每个视图都是一个独立的webview进程，考虑到性能消耗，小程序不允许打开超过5个层级的页面，当然同是也是为了体验更好。</p> <p>小程序底层还是基于Webview来实现的，并没有发明创造新技术，整个框架体系，比较清晰和简单，基于Web规范，保证现有技能价值的最大化，只需了解框架规范即可使用已有Web技术进行开发。</p> <h3 id="_8-3-小程序和快应用"><a href="#_8-3-小程序和快应用" class="header-anchor">#</a> 8.3 小程序和快应用</h3> <p>小程序甚至让各大巨头都头疼不已，于是2018年初，小米、华为、中兴、金立、联想、魅族、努比亚、oppo、vivo 九大手机厂商联合起来搞事情了，推出了一个叫做「快应用」的项目。</p> <p>快应用是个什么东西呢？其实也就是个桌面快捷方式，用户无需下载安装，即点即用，享受原生应用的性能体验。这一套东西一看，就是跟微信小程序对着干的，虽然标榜的东西不一样，其实本质上还是一样的，无非都是为了抢占手机桌面，抢占用户的时间。</p> <p>现在随着微信小程序越来越火，以后只要一个微信就全部搞定了，不需要 App 了，微信类似于操作系统了，就没有手机操作系统发挥的空间了。这让手机厂商越来越难过，所以他们才会抱团取暖。</p> <p>“快应用” 使用前端技术栈开发，原生渲染，同时具备 H5 页面和原生应用的双重优点。“快应用” 框架深度集成进各厂商手机系统中，可以在操作系统层面实现用户需求与应用服务间的无缝连接，提升用户的使用体验和应用服务的转化效率，同时支持生成桌面图标等留存能力。</p> <p>一旦快应用在国内快速成长和发展起来，对于移动开发端的 Android 原生开发者肯定会造成一定的冲击，作为技术人时刻保持学习和成长是我们的必然要求，说实话，我最近发现好像很多技术都在前端化。</p> <ul><li>微信小程序支持跨平台，而“快程序”只支持 Android 平台。因此，“快应用”在这一点上无法无微信小程序相媲美；</li> <li>微信的社交性。在当前，几乎每部智能手机都会安装微信，而且微信用户的粘性非常高。这就意味着，相对于“快应用”，微信小程序更容易引起用户的注意，更容易被用户打开。</li> <li>快应用直接就是在手机厂商的手机桌面上自带，无需安装，而小程序可能需要打开微信才能启动小程序，多了一层操作，但是小程序可以发送快捷方式到桌面。</li></ul> <h3 id="_8-4-如何看待多端开发"><a href="#_8-4-如何看待多端开发" class="header-anchor">#</a> 8.4 如何看待多端开发</h3> <p>移动互联网时代端的形态越来越多，每个端的设备载体也各种各样，在开发多端应用时需要根据各个端设备的特性开发不用的软件应用，端的形态也多种多样，Android、iOS、Web、微信小程序、支付宝小程序、快应用、百度智能小程序等大行其道。</p> <p>当业务要求同时在不同的端都要求有所表现的时候，需要针对不同的端去编写多套代码并适配不同设备，人工成本、时间成本等都非常高，这时候只编写一套代码就能够适配到多端的能力就显得极为需要。</p> <p>如果你想多端开发，提升效率，不想踩太多坑，uni-app相对更完善。</p> <p>如果你只开发微信小程序，不做多端，那么使用uni-app、微信原生开发、taro是更优的选择。</p> <p>如果你主要为了微信端和H5端，那么uni-app和taro都可以。可以根据自己熟悉的技术栈选择。</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/blog/fs/2.html" class="prev">
+        使用vue开发PC端应用
+      </a></span> <span class="next"><a href="/blog/fs/4.html">
+        使用nodejs开发接口服务
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/blog/assets/js/app.2c917b5d.js" defer></script><script src="/blog/assets/js/2.fd5fecfd.js" defer></script><script src="/blog/assets/js/30.99874fba.js" defer></script>
+  </body>
+</html>
